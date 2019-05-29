@@ -14,7 +14,7 @@
             <div id="header box">
                 <h1>Jennifer Kim</h1>
                 <nav>
-                    <ul>
+                    <<ul class="navbar"
                         <li><a href="index.html">About</a></li>
                         <li><a href="portfolio.html">Portfolio</a></li>
                         <li><a href="contact.html">Contact</a></li>
@@ -24,32 +24,34 @@
         </div>
     </header>
 
-    <div class="container">
-        <h2> Contact </h2>  
-           <form id="contact-form">
-               <ul>
-                   <li>
-                        <label for="name">Name</label>
-                        <input type:"text" id="name" name="name" placeholder="John Smith" required="required">
-                   </li>
+    <div class="container"> 
+        <section id="form">
+            <h2 class="padding"> Contact </h2>
+            <hr class="heavy" />
+            <form action="">
+                <fieldset>
+                    <legend></legend>
 
-                   <li>
-                        <label for="email">Email</label>
-                        <input type:"email" id="email" name="email" placeholder="example@gmail.com" required="required">
-                   </li>
+                    <label for="name">Name</label>
+                    <br>
+                    <input type:"text" id="name" name="name" placeholder="John Smith" required="required">
 
-                   <li>
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" required="required"></textarea>
-                   </li>
-                 
-               </ul>
-               <input type="submit">
-           </form>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type:"email" id="email" name="email" placeholder="example@gmail.com" required="required">
 
+                    <label for="message">Message</label>
+                    <br>
+                    <textarea id="message" name="message" required="required"></textarea>
+
+                    <br>
+                    <input type="submit">
+
+                </fieldset>
+            </form>
+        </section>
     </div>  
-   
-       
+    
     <footer>
         <div id="footer-content">
             Copyright &copy;
